@@ -1,8 +1,8 @@
 import pygame
 
-
 class Ship:
     """A class to manage the ship."""
+
     def __init__(self, ai_game):
         """Initialize the ship and set its starting position."""
         self.screen = ai_game.screen
@@ -37,6 +37,7 @@ class Ship:
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
+
 
     def center_ship(self):
         """Center the ship on the screen."""
