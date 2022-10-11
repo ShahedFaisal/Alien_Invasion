@@ -165,7 +165,7 @@ class AlienInvasion:
         self._check_aliens_bottom()
 
 
-    def _create_alien(self,alien_number, row_number):
+    def _create_alien(self, alien_number, row_number):
         """Create an alien and place it in the row."""
         alien = Alien(self)
         alien_width, alien_height = alien.rect.size
